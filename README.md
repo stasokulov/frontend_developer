@@ -5,3 +5,5 @@
 Написано на чистом JS.
 
 Само является примером использования различных технологий, например AJAX.
+
+Сайт: https://stasokulov.github.io/frontend_developer/
