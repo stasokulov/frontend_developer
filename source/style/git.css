@@ -1,0 +1,158 @@
+.git {
+
+    margin: 0 0 170px 0;
+
+    &__intro {
+        margin: 0 9% 0 0;
+    }
+
+    &__main__item {
+        list-style-type: none;
+        margin: 0 0 25px 0;
+    }
+
+    &__item-title {
+        font-weight: bold;
+        color: var(--darkGray);
+        counter-increment: list;
+        margin: 0 0 6px 0;
+    }
+
+    &__item-text {
+        display: flex;
+        color: #000;
+        font-weight: normal;
+        margin: 0;
+    } 
+}
+
+.text-element {
+    display: flex;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--gray);
+    margin: 0 16px 0 0;
+
+    &_star {
+        display: inline-block;
+        background: inline('../source/img/inline/star.svg') no-repeat;
+        background-size: cover;
+        width: 17px;
+        height: 17px;
+        margin: 0 5px 0 0;
+    }
+    
+    &_fork {
+        display: inline-block;
+        background: inline('../source/img/inline/fork.svg') no-repeat;
+        background-size: cover;
+        width: 12px;
+        height: 16px;
+        margin: 0 5px 0 0;
+    }
+}
+
+.marker {
+    display: inline-block;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: var(--darkGray);
+    margin: 0 5px 0 0;
+
+    &_JS {
+        background-color: var(--yellow);
+    }
+    
+    &_HTML {
+        background-color: var(--red);
+    }
+    
+    &_CSS {
+        background-color: var(--blue);
+    }
+}
+
+.paginator__item {
+    margin: 5px;
+    cursor: pointer;
+
+    &_active {
+        color: var(--blue);
+    }    
+
+    &:hover {
+        color: var(--blue);
+    }
+}
+
+@media (max-width:800px) {
+    .git {
+
+        margin: 0 0 155px 0;
+
+        &__intro {
+            margin: 0 9% 25px 0;
+        }
+    }
+
+    .text-element {
+        font-size: 12px;
+        margin: 0 15px 0 0;
+
+        &_star {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+        }
+
+        &_fork {
+            width: 10px;
+            height: 12px;
+        }
+    }
+
+    .marker {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .git {
+
+        margin: 0 0 100px 0;
+        
+        &__intro {
+            margin: 0 0 24px 0;
+        }
+
+        &__main__item {
+            margin: 0 0 10px 0;
+        }
+
+        &__item-title {
+            margin: 0 0 0 0;
+        }
+    }
+
+    .text-element {
+        font-size: 8px;
+        margin: 0 10px 0 0;
+
+        &_star {
+            width: 10px;
+            height: 10px;
+        }
+    
+        &_fork {
+            width: 7px;
+            height: 9px;
+        }
+    }
+
+    .marker {
+        width: 9px;
+        height: 9px;
+    }
+}

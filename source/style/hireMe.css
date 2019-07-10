@@ -1,0 +1,56 @@
+.hireMe {
+
+    margin: 0 0 194px 0;
+    font-size: 33px;
+
+    &__title {
+        font-weight: 600;
+        color: var(--blue);
+        font-size: 33px;
+        margin: 0 0 6px 0;
+    }
+
+    &__text {
+        font-weight: normal;
+        color: #000;
+        margin: 0 0 30px 0;
+    }
+
+    &__text-wrap {
+        margin: 0 0 65px 0;
+    }
+
+
+    &__mail {
+        font-style: normal;
+        font-weight: 500;
+        text-decoration-line: underline;
+        color: var(--blue);
+    }
+}
+
+@media (max-width:800px) {
+    .hireMe {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:500px) {
+    .hireMe {
+        font-size: 18px;
+        margin: 0 0 106px 0;
+
+        &__title {
+            font-size: 18px;
+            margin: 0 0 10px 0;
+        }
+
+        &__text {
+            margin: 0 0 22px 0;
+        }
+
+        &__text-wrap {
+            margin: 0 0 27px 0;
+        }
+    }
+}

@@ -1,0 +1,149 @@
+.recentWorks {
+    max-width: 1030px;
+    margin: 0 0 202px 0;
+
+    &__tesla {
+        background: url(img/tesla.jpg);
+    }
+
+    &__mouse {
+        background: url(img/catchMouse.jpg);
+    }
+
+    &__trucking {
+        background: url(img/trucking.jpg);
+    }
+
+    &__news-quest {
+        background: url(img/news-quest.jpg);
+    }
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 22px 0;
+    }
+
+    &__title-side {
+        font-weight: normal;
+        font-size: 23px;
+        color: var(--gray);
+        cursor: pointer;
+    }
+
+    &__title-side:hover {
+        color: var(--blue);
+    }
+
+    &__example {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    &__item-wrap-width {
+        width: 49%;
+        position: relative;
+        margin: 0 0 26px 0;
+    }
+
+    &__item-wrap-height {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 58%;
+    }
+
+    &__item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 25px 25px 34px 40px;
+        box-sizing: border-box;
+        background: var(--red);
+        background-size: contain;
+    }
+
+    &__item-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        transition: .5s;
+        background-size: cover;
+    }
+
+    &__item-image:hover {
+        opacity: 0;
+    }
+
+    &__item-title {
+        position: relative;
+        font-weight: 600;
+        font-size: 20px;
+        color: #FFF;
+    }
+
+    &__item-title:before {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        width: 37px;
+        height: 2px;
+        background-color: #FFF;
+    }
+
+    &__item-footer {
+        font-weight: normal;
+        font-size: 20px;
+        color: #FFF;
+    }
+}
+
+@media (max-width: 800px) {
+    .recentWorks {
+        margin: 0 0 170px 0;
+
+        &__example-item {
+            padding: 14px 14px 18px 22px;
+        }
+
+        &__title-side {
+            font-size: 19px;
+        }
+
+        &__item-title,
+        &__item-footer {
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .recentWorks {
+        margin: 0 0 80px 0;
+
+        &__item-wrap-width,
+        &__item-wrap-height {
+            width: 100%;
+        }
+
+        &__item {
+            min-width: 279px;
+            min-height: 162px;
+        }
+    
+        &__title-side {
+            font-size: 15px;
+        }
+    }
+}

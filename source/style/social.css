@@ -1,0 +1,31 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: calc(46px*2 + 14px);
+    padding: 0;
+    margin: 0;
+}
+
+.social__item {
+    display: block;
+    background-size: cover;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.social__item:hover {
+    opacity: .7;
+}
+
+.social__git {
+    background: inline('../source/img/inline/social/git.svg') no-repeat;
+    width: width('../source/img/inline/social/git.svg');
+    height: height('../source/img/inline/social/git.svg');
+}
+
+.social__in {
+    background: inline('../source/img/inline/social/in.svg')  no-repeat;
+    width: width('../source/img/inline/social/in.svg');
+    height: height('../source/img/inline/social/in.svg');
+}

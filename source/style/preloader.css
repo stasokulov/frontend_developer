@@ -1,0 +1,34 @@
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    &__svg {
+        animation: rotate  1.8s infinite linear;
+    }
+
+    @keyframes rotate {
+        from {transform: rotate(0);}
+        to {transform: rotate(360deg);}
+    }
+    
+    &__wrap_global {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    &__wrap_git {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+}

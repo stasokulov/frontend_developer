@@ -1,0 +1,53 @@
+    <header class='header'>
+        <div class='header__mainMenu-wrap'>
+            <div class='header__logo'>
+                {{logo}}
+            </div>
+            <div class='header__mainMenu'>
+                <nav class='menu_mainMenu'>
+                    <a class='menu__works menu__item_mainMenu scroll' data-target='recentWorks'>
+                        Работы
+                    </a>
+                    <a class='menu__skills menu__item_mainMenu scroll' data-target='skills'>
+                        Навыки
+                    </a>
+                    <a class='menu__git menu__item_mainMenu scroll' data-target='git'>
+                        Гит-репозитории
+                    </a>
+                </nav>
+            </div>
+
+            <div class='burger'>
+                <div class='burger__item burger__item-1'></div>
+                <div class='burger__item burger__item-2'></div>
+            </div>
+        </div>
+        <div class='header__mobileMenu hidden'>
+
+            <nav class='menu_mobileMenu'>
+                <a class='menu__works menu__item_mobileMenu scroll' data-target = 'recentWorks'>
+                    Работы
+                </a>
+                <a class='menu__skills menu__item_mobileMenu scroll' data-target = 'skills'>
+                    Навыки
+                </a>
+                <a class='menu__git menu__item_mobileMenu scroll' data-target = 'git'>
+                    Гит-репозитории
+                </a>
+            </nav>
+
+            <div class='contactMe_mobileMenu'>
+                <div class='contactMe__title_mobileMenu'>
+                    Контакты
+                </div>
+
+                <ul class='contactMe__contactData_mobileMenu'>
+                    <li class='contactMe__contactData-item_mobileMenu' href='mailto:{{mail}}'>{{mail}}</li>
+                    <li class='contactMe__contactData-item_mobileMenu telNum'>{{phone}}</li>
+                </ul>
+        
+                {{> social}}
+    
+            </div>
+        </div>
+    </header>   

@@ -1,0 +1,50 @@
+<div class='footer__wrap'>
+    <footer class='footer'>
+        <section class='footer__aboutMe'>
+            <p class='footer__myName'>
+                {{firstName}} {{lastName}}
+            </p>
+            <p class='footer__text'>
+               Я junior frontend-developer.
+                <br>
+                Готов присоединиться к вашей команде разработчиков.
+            </p>
+        </section>
+
+        <section class='footer__menu'>
+            <div class='footer__title-menu'>
+                Меню
+            </div>
+            <nav class='footer__menu-items menu'>
+                <a class='menu__item_footer scroll' data-target='aboutMe'>
+                    Обо мне
+                </a>
+                <a class='menu__item_footer scroll' data-target='recentWorks'>
+                    Работы
+                </a>
+                <a class='menu__item_footer scroll' data-target='skills'>
+                    Навыки
+                </a>
+                <a class='menu__item_footer scroll' data-target='git'>
+                    Гит-репозитории
+                </a>
+            </nav>
+        </section>
+        
+        <section class='footer__contact'>
+            <div class='footer__title-contact'>
+                Контакты
+            </div>
+
+            <ul class='footer__contactData'>
+                <li class='footer__contact-item' href='mailto:{{mail}}'>{{mail}}</li>
+                <li class='footer__contact-item telNum'>{{phone}}</li>
+            </ul>
+
+            <div class='footer__social'>
+                {{> social}}
+            </div>
+        </section>
+    </footer>
+</div> 
+
