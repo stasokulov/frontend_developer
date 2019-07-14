@@ -2,15 +2,18 @@ let burger = document.querySelector('.burger');
 let burgerItem1 = document.querySelector('.burger__item-1');
 let burgerItem2 = document.querySelector('.burger__item-2');
 let mobileMenu = document.querySelector('.header__mobileMenu');
-let language = document.querySelector('.header__mainMenu__language');
+let main = document.querySelector('main');
+let footer = document.querySelector('.footer__wrap');
 burger.addEventListener('click', () => {
     burgerItem1.classList.toggle('burger__item-1_active');
     burgerItem2.classList.toggle('burger__item-2_active');
     mobileMenu.classList.toggle('hidden');
+    main.classList.toggle('hidden');
+    footer.classList.toggle('hidden');
 });
 
-let header = document.querySelector('body');
-header.addEventListener('click', (e) => {
+let body = document.querySelector('body');
+body.addEventListener('click', (e) => {
     if( e.target.classList.contains('scroll') ) {
         let targetClass = e.target.dataset.target;
         let aimBlock = document.querySelector('.' + targetClass);
