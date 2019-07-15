@@ -35,7 +35,6 @@
         width: calc(100% + 40px);
         opacity: 1;
         z-index: 1;
-        cursor: pointer;
         animation: slideMobileMenu  .3s ease-in-out;
     }
 }
