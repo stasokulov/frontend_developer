@@ -28,6 +28,10 @@ body {
     padding: 41px 100px 0 100px;
 }
 
+.telNum {
+    cursor: pointer;
+}
+
 @media (max-width:1030px) {
     .wrapper {
         padding: 30px 70px 0 70px;

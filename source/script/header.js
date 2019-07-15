@@ -15,6 +15,13 @@ burger.addEventListener('click', () => {
 let body = document.querySelector('body');
 body.addEventListener('click', (e) => {
     if( e.target.classList.contains('scroll') ) {
+
+        burgerItem1.classList.remove('burger__item-1_active');
+        burgerItem2.classList.remove('burger__item-2_active');
+        mobileMenu.classList.add('hidden');
+        main.classList.remove('hidden');
+        footer.classList.remove('hidden');
+
         let targetClass = e.target.dataset.target;
         let aimBlock = document.querySelector('.' + targetClass);
         let finish = aimBlock.offsetTop;
@@ -23,7 +30,7 @@ body.addEventListener('click', (e) => {
         let lenghtStep = (finish-start)/numStep;
         let progress = start;
         let countStep = 0;
-        
+
         scroll();
 
         function scroll() {
