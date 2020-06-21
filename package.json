@@ -72,7 +72,7 @@
     "isobject": "^3.0.1",
     "json-stable-stringify-without-jsonify": "^1.0.1",
     "just-debounce": "^1.0.0",
-    "kind-of": "^6.0.2",
+    "kind-of": "^6.0.3",
     "last-run": "^1.1.1",
     "lcid": "^1.0.0",
     "make-iterator": "^1.0.1",
