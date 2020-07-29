@@ -2,6 +2,10 @@
     max-width: 1030px;
     margin: 0 0 202px 0;
 
+    &__sksis {
+        background: url(img/sksis.jpg);
+    }
+
     &__tesla {
         background: url(img/tesla.jpg);
     }
@@ -141,7 +145,7 @@
             min-width: 279px;
             min-height: 162px;
         }
-    
+
         &__title-side {
             font-size: 15px;
         }
