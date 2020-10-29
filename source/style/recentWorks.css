@@ -45,6 +45,9 @@
     &__game_find_a_pair {
         background: url(img/game_find_a_pair.jpg);
     }
+    &__pokemon-slider {
+        background: url(img/pokemon-slider.jpg);
+    }
 
     &__title {
         display: flex;
