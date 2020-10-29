@@ -2,6 +2,13 @@
     max-width: 1030px;
     margin: 0 0 202px 0;
 
+    &__majorica {
+        background: url(img/majorica.jpg);
+    }
+    &__zinodavidoff {
+        background: url(img/zinodavidoff.jpg);
+    }
+
     &__sksis {
         background: url(img/sksis.jpg);
     }
@@ -20,6 +27,23 @@
 
     &__news-quest {
         background: url(img/news-quest.jpg);
+    }
+
+    &__form-vulidate {
+        background: url(img/form-vulidate.jpg);
+    }
+
+    &__simons-says {
+        background: url(img/simons-says.jpg);
+    }
+    &__beer-list {
+        background: url(img/beer-list.jpg);
+    }
+    &__tic-tac-vue {
+        background: url(img/tic-tac-vue.jpg);
+    }
+    &__game_find_a_pair {
+        background: url(img/game_find_a_pair.jpg);
     }
 
     &__title {

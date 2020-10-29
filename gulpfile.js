@@ -84,7 +84,7 @@ gulp.task('css', () => {
     .pipe(concat(paths.targetNames.styles))
     .pipe(postcss(plugins))
     .pipe(gulpif( process.env.NODE_ENV === 'prod', cssnano() ))
-    .pipe(sourcemaps.write()) 
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest(paths.build.styles));
 });
 
@@ -112,8 +112,6 @@ gulp.task('assets', (done) => {
     done();
 });
 
-
-
 gulp.task('eslint', () => {
     return gulp.src(paths.lint.scripts)
         .pipe( eslint(rulesScripts) )
@@ -138,5 +136,4 @@ gulp.task('default', gulp.series('lint', 'clean', gulp.parallel('compile', 'css'
 
 gulp.task('watch', () => {
     gulp.watch(paths.src.dir, gulp.series('default'));
-
 });
