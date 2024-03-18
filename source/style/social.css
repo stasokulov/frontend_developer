@@ -29,3 +29,15 @@
     width: width('../source/img/inline/social/in.svg');
     height: height('../source/img/inline/social/in.svg');
 }
+
+.social__hh {
+    background: inline('../source/img/inline/social/hh.svg')  no-repeat;
+    width: width('../source/img/inline/social/hh.svg');
+    height: height('../source/img/inline/social/hh.svg');
+}
+
+.social__habr {
+    background: inline('../source/img/inline/social/habr.svg')  no-repeat;
+    width: width('../source/img/inline/social/habr.svg');
+    height: height('../source/img/inline/social/habr.svg');
+}

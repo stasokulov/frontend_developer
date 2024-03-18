@@ -18,6 +18,10 @@ body {
     cursor: pointer;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .hidden {
     display: none;
 }
@@ -26,10 +30,6 @@ body {
     max-width: 1231px;
     margin: auto;
     padding: 41px 100px 0 100px;
-}
-
-.telNum {
-    cursor: pointer;
 }
 
 @media (max-width:1030px) {
