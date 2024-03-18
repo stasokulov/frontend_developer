@@ -141,5 +141,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions"
 }

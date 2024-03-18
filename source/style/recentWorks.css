@@ -5,10 +5,31 @@
     &__majorica {
         background: url(img/majorica.jpg);
     }
-    &__zinodavidoff {
-        background: url(img/zinodavidoff.jpg);
+
+    &__fetaxa {
+        background: url(img/fetaxa.jpg);
     }
 
+    &__friso {
+        background: url(img/friso.jpg);
+    }
+
+    &__maggi {
+        background: url(img/maggi.jpg);
+    }
+
+    &__goon {
+        background: url(img/goon.jpg);
+    }
+
+    &__omoda {
+        background: url(img/omoda.jpg);
+    }
+
+    &__notariat {
+        background: url(img/notariat.jpg);
+    }
+    
     &__sksis {
         background: url(img/sksis.jpg);
     }
@@ -36,17 +57,25 @@
     &__simons-says {
         background: url(img/simons-says.jpg);
     }
+
     &__beer-list {
         background: url(img/beer-list.jpg);
     }
+
     &__tic-tac-vue {
         background: url(img/tic-tac-vue.jpg);
     }
+
     &__game_find_a_pair {
         background: url(img/game_find_a_pair.jpg);
     }
+
     &__pokemon-slider {
         background: url(img/pokemon-slider.jpg);
+    }
+
+    &__life {
+        background: url(img/life.jpg);
     }
 
     &__title {

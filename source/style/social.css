@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: calc(46px*2 + 14px);
     padding: 0;
     margin: 0;
 }

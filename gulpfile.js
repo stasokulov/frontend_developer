@@ -71,7 +71,7 @@ gulp.task('compile', () => {
 
 gulp.task('css', () => {
     const plugins = [
-        autoprefixer({ browsers: ['last 2 version'] }),
+        autoprefixer(),
         postcssPresetEnv({ browsers: 'last 2 versions' }),
         nested(),
         assets({
