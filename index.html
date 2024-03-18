@@ -26,9 +26,6 @@
                     <a class='menu__works menu__item_mainMenu scroll' data-target='recentWorks'>
                         Работы
                     </a>
-                    <a class='menu__skills menu__item_mainMenu scroll' data-target='skills'>
-                        Навыки
-                    </a>
                     <a class='menu__git menu__item_mainMenu scroll' data-target='git'>
                         Гит-репозитории
                     </a>
@@ -47,9 +44,6 @@
                 <a class='menu__works menu__item_mobileMenu scroll' data-target = 'recentWorks'>
                     Работы
                 </a>
-                <a class='menu__skills menu__item_mobileMenu scroll' data-target = 'skills'>
-                    Навыки
-                </a>
                 <a class='menu__git menu__item_mobileMenu scroll' data-target = 'git'>
                     Гит-репозитории
                 </a>
@@ -62,7 +56,6 @@
 
                 <ul class='contactMe__contactData_mobileMenu'>
                     <li class='contactMe__contactData-item_mobileMenu' href='mailto:stasokulov@gmail.com'>stasokulov@gmail.com</li>
-                    <li class='contactMe__contactData-item_mobileMenu telNum'>+7 (950) 565-27-40</li>
                 </ul>
         
 <menu class='social'>
@@ -71,6 +64,12 @@
     </a>
     <a href = 'https://www.linkedin.com/in/stanislav-okulov-613ab410a/' target = blank>
         <div class='social__in social__item'></div>
+    </a>
+    <a href = 'https://syktyvkar.hh.ru/resume/015e3512ff0119e6480039ed1f334d4b556c32' target = blank>
+        <div class='social__hh social__item'></div>
+    </a>
+    <a href = 'https://career.habr.com/stasokulov1' target = blank>
+        <div class='social__habr social__item'></div>
     </a>
 </menu>    
             </div>
@@ -89,22 +88,24 @@
 
     <section class='aboutMe__text'>
         <p class='aboutMe__hi'>
-            Привет, я <span class='highlightBlue'>junior+ frontend-developer</span> из России.
+            Привет, я <span class='highlightBlue'>frontend-developer</span>.
             <br>
             Готов присоединиться к вашей команде разработчиков.
         </p>
         <div class='aboutMe__other'>
-            <p class='aboutMe__text-item'>Верстаю адаптивные странички и знаю ширину экрана iPhone 4 в пикселях.</p>
-            <p class='aboutMe__text-item'>Владею JavaScript, знаю что такое замыкание и почему 0,1 + 0,2 &ne; 0,3.</p>
-            <p class='aboutMe__text-item'>Есть опыт работы во VueJS, но освою любой нужный фреймворк.</p>
-            <p class='aboutMe__text-item'><a class='highlightBlue underline' href='mailto:stasokulov@gmail.com'>stasokulov@gmail.com</a>,</p>
+            <p class='aboutMe__text-item'>Владею <b>JavaScript</b>, <b>Vue3</b>. Есть опыт в <b>TypeScript</b>.</p>
+            <p class='aboutMe__text-item'>Могу верстать <b>pixel perfect</b>, но, также, люблю делать сложную логику.</p>
+            <p class='aboutMe__text-item'>Работал с: Ionic, VueX, Pinia, Nuxt, Gitlab, REST API, Promise, SPA, Sass, AJAX, CORS, gulp, bootstrap, БЭМ, npm, yarn, Mustache, PostCSS.</p>
+            <p class='aboutMe__text-item'>Моя привычная рутина: получить данные по api, провалидировать форму, отправить данные на сервер, изучить пару новых библиотек.</p>
+            <p class='aboutMe__text-item'>Знаю что такое замыкание и почему 0,1 + 0,2 &ne; 0,3.</p>
+            <p class='aboutMe__text-item'><b>Коммерческий опыт</b> с сентября 2019г.</p>
+            <p class='aboutMe__text-item'><a class='highlightBlue underline pointer scroll' data-target='hireMe'>Написать мне</a></p>
         </div>
-
     </section>
-    <div class='aboutMe__arrow' >
-            <svg viewBox='0 0 53 29' fill='none' xmlns='http://www.w3.org/2000/svg' class='scroll' data-target = 'recentWorks'>
-                <path d='M26.5931 26.6535L25.5324 27.7142L26.5931 28.7749L27.6538 27.7142L26.5931 26.6535ZM2.90734 0.846444C2.32155 0.260658 1.37181 0.260658 0.78602 0.846444C0.200233 1.43223 0.200233 2.38198 0.78602 2.96776L2.90734 0.846444ZM50.2788 0.846446L25.5324 25.5929L27.6538 27.7142L52.4001 2.96776L50.2788 0.846446ZM27.6538 25.5929L2.90734 0.846444L0.78602 2.96776L25.5324 27.7142L27.6538 25.5929Z' fill='#ADADB9'/>
-            </svg>
+    <div class='aboutMe__arrow'>
+        <svg viewBox='0 0 53 29' fill='none' xmlns='http://www.w3.org/2000/svg' class='scroll' data-target='recentWorks'>
+            <path d='M26.5931 26.6535L25.5324 27.7142L26.5931 28.7749L27.6538 27.7142L26.5931 26.6535ZM2.90734 0.846444C2.32155 0.260658 1.37181 0.260658 0.78602 0.846444C0.200233 1.43223 0.200233 2.38198 0.78602 2.96776L2.90734 0.846444ZM50.2788 0.846446L25.5324 25.5929L27.6538 27.7142L52.4001 2.96776L50.2788 0.846446ZM27.6538 25.5929L2.90734 0.846444L0.78602 2.96776L25.5324 27.7142L27.6538 25.5929Z' fill='#ADADB9'/>
+        </svg>
     </div>
 </article>
 <article class='recentWorks'>
@@ -284,62 +285,6 @@
         </div>
     </section>
 </article>
-<article class='skills achievement'>
-    <section class='skills__intro achievement__intro'>
-        <h2 class='achievement__intro-title'>Навыки</h2>
-        <p class='achievement__intro-text'>У меня есть опыт удаленной работы в распределенной команде. Владею такими инструментами:</p>
-    </section>
-
-    <section class='achievement__main'>
-        <ul class='achievement__list'>
-            <li class='skills__item'>
-                <div class='skills__item-innerWrap'>
-                    <p class='skills__item-title'>HTML5</p>
-                    <p class='skills__item-text'>
-                        Новые теги HTML5 помогают облегчить и ускорить верстку, а, также,
-                        улучшить семантическую структуру страницы.
-                    </p>
-                </div>
-            </li>
-            <li class='skills__item'>
-                <div class='skills__item-innerWrap'>
-                    <p class='skills__item-title'>CSS</p>
-                    <p class='skills__item-text'>
-                        Владею адаптивной версткой, что позволяет корректно отображать сайты на экранах различных
-                        устройств разной ширины. Использую БЭМ-нейминг, что позволяет легче (а, значит, быстрее и
-                        дешевле) поддерживать проекты.
-                    </p>
-                </div>
-            </li>
-            <li class='skills__item'>
-                <div class='skills__item-innerWrap'>
-                    <p class='skills__item-title'>JavaScript</p>
-                    <p class='skills__item-text'>
-                        Пишу на нативном JS. Знаю и использую стандарт ES6. Знаком с фреймворками VueJS и, немного, с React и Angular.
-                    </p>
-                </div>
-            </li>
-            <li class='skills__item'>
-                <div class='skills__item-innerWrap'>
-                    <p class='skills__item-title'>Препроцессоры, шаблонизаторы и прочее окружение</p>
-                    <p class='skills__item-text'>
-                        Использую Node.js и npm для развертывания сборщика проектов Gulp.
-                        Использую: HTML-шаблонизатор Mustache; пакеты PostCSS - для ускорения работы со стилями.
-                    </p>
-                </div>
-            </li>
-            <li class='skills__item'>
-                <div class='skills__item-innerWrap'>
-                    <p class='skills__item-title'>Agile</p>
-                    <p class='skills__item-text'>
-                        Работал в команде с ежедневными скрамами, недельными спринтами, канбан-доской и чек-листами.
-                        Понимаю и принимаю этот подход.
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </section>
-</article>
 <article class='git achievement'>
     <section class='git__intro achievement__intro'>
         <h2 class='achievement__intro-title'>Мои гит-репозитории</h2>
@@ -367,9 +312,12 @@
     <div class='hireMe__text-wrap'>
         <p class='hireMe__text'>Буду рад присоединиться к вашей команде.
         <br>
-        Я пишу на нативном JavaScript. Готов изучить новые технологии, которые требуются для проекта.</p>
+        Я пишу на нативном JavaScript и Vue3. Готов изучить новые технологии, которые требуются для проекта.</p>
     </div>
-    <a class='hireMe__mail' href='mailto:stasokulov@gmail.com'>stasokulov@gmail.com</a>
+    <a class='hireMe__mail' href='mailto:stasokulov@gmail.com'><p>stasokulov@gmail.com</p></a>
+    <a class='hireMe__mail' href='https://syktyvkar.hh.ru/resume/015e3512ff0119e6480039ed1f334d4b556c32' target='_blank'><p>Резюме на hh.ru</p></a>
+    <a class='hireMe__mail' href='https://www.linkedin.com/in/stanislav-okulov-613ab410a/' target='_blank'><p>Страничка на linkedin</p></a>
+    <a class='hireMe__mail' href='https://career.habr.com/stasokulov1' target='_blank'><p>Аккаунт на хабр</p></a>
 </article>
         </main>
     </div>
@@ -380,7 +328,7 @@
                 Станислав Окулов
             </p>
             <p class='footer__text'>
-               Я junior frontend-developer.
+               Я frontend-developer.
                 <br>
                 Готов присоединиться к вашей команде разработчиков.
             </p>
@@ -391,16 +339,13 @@
                 Меню
             </div>
             <nav class='footer__menu-items menu'>
-                <a class='menu__item_footer scroll' data-target='aboutMe'>
+                <a class='menu__item_footer scroll pointer' data-target='aboutMe'>
                     Обо мне
                 </a>
-                <a class='menu__item_footer scroll' data-target='recentWorks'>
+                <a class='menu__item_footer scroll pointer' data-target='recentWorks'>
                     Работы
                 </a>
-                <a class='menu__item_footer scroll' data-target='skills'>
-                    Навыки
-                </a>
-                <a class='menu__item_footer scroll' data-target='git'>
+                <a class='menu__item_footer scroll pointer' data-target='git'>
                     Гит-репозитории
                 </a>
             </nav>
@@ -413,7 +358,6 @@
 
             <ul class='footer__contactData'>
                 <li class='footer__contact-item' href='mailto:stasokulov@gmail.com'>stasokulov@gmail.com</li>
-                <li class='footer__contact-item telNum'>+7 (950) 565-27-40</li>
             </ul>
 
             <div class='footer__social'>
@@ -423,6 +367,12 @@
     </a>
     <a href = 'https://www.linkedin.com/in/stanislav-okulov-613ab410a/' target = blank>
         <div class='social__in social__item'></div>
+    </a>
+    <a href = 'https://syktyvkar.hh.ru/resume/015e3512ff0119e6480039ed1f334d4b556c32' target = blank>
+        <div class='social__hh social__item'></div>
+    </a>
+    <a href = 'https://career.habr.com/stasokulov1' target = blank>
+        <div class='social__habr social__item'></div>
     </a>
 </menu>            </div>
         </section>
