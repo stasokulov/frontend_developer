@@ -2,6 +2,10 @@
     max-width: 1030px;
     margin: 0 0 202px 0;
 
+    &__todo-quick-deal {
+        background: url(img/todo-quick-deal.jpg);
+    }
+
     &__majorica {
         background: url(img/majorica.jpg);
     }
